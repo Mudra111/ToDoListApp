@@ -5,8 +5,8 @@ import "./register.css";
 const Register = () => {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
-	const [error, setError] = useState(null);
-	const [success, setSuccess] = useState(null);
+	// const [error, setError] = useState(null);
+	// const [success, setSuccess] = useState(null);
 
 	const handleRegister = async (e) => {
 		e.preventDefault();
@@ -69,8 +69,6 @@ const Register = () => {
 			<div>
 				Already have an account? <Link to="/">Login here</Link>
 			</div>
-			{error && <p style={{ color: "red" }}>{error}</p>}
-			{success && <p style={{ color: "green" }}>{success}</p>}
 		</div>
 	);
 };
