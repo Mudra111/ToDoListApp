@@ -25,7 +25,10 @@ const Register = () => {
 		console.log(options);
 
 		try {
-			let p = await fetch("http://localhost:3005/register", options);
+			let p = await fetch(
+				"https://todolist-ls1g.onrender.com/register",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);

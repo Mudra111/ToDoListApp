@@ -24,7 +24,7 @@ const ToDoList = () => {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/logout", options);
+			let p = await fetch("https://todolist-ls1g.onrender.com/logout", options);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -51,7 +51,7 @@ const ToDoList = () => {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/todos", options);
+			let p = await fetch("https://todolist-ls1g.onrender.com/todos", options);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -118,7 +118,7 @@ const ToDoList = () => {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/todos", options);
+			let p = await fetch("https://todolist-ls1g.onrender.com/todos", options);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -147,7 +147,10 @@ const ToDoList = () => {
 		};
 
 		try {
-			let p = await fetch(`http://localhost:3005/todos/${id}`, options);
+			let p = await fetch(
+				`https://todolist-ls1g.onrender.com/todos/${id}`,
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
