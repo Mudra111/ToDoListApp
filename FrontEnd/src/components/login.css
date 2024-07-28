@@ -1,0 +1,44 @@
+.loginMain {
+	width: 35%;
+	margin: 160px auto 0px auto !important;
+	background-color: antiquewhite;
+	padding: 30px 50px 70px 50px;
+	margin-top: 60px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px gray;
+}
+
+.loginH1 {
+	color: rgb(190, 113, 12);
+}
+
+.loginEmailInput,
+.loginPassworInput {
+	display: block;
+	margin: 30px auto;
+	width: 55%;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	color: rgb(100, 57, 1);
+	outline: none;
+}
+
+.loginEmailInput::placeholder,
+.loginPassworInput::placeholder {
+	color: rgba(100, 57, 1, 0.707);
+}
+
+.loginBtn {
+	padding: 10px 15px;
+	width: 30%;
+	font-size: 17px;
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(190, 113, 12);
+	color: rgb(254, 253, 251);
+	margin: 10px 0px;
+}
